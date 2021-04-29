@@ -162,3 +162,7 @@ export default () => {
 
 ## 그래서 LifeCycle은?
 컴포넌트 밑에 그림과 같이 작동을 한다.
+
+![](https://user-images.githubusercontent.com/67951392/116511294-3689e400-a901-11eb-9613-fc99f917c20b.png)
+
+컴포넌트에 마운트 요청이 들어오면 가장먼저 기본적인 State가 가지고있는 값을 이용해서 랜더를 진행한다. 이후 Component Did Mount가 실행되고 그후에 다시 리랜더를 진행한다.
