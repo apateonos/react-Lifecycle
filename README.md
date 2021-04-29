@@ -125,7 +125,7 @@ export default () => {
 
 #### 변수가 변하지 않는다!
 밑에 컴포넌트는 버튼을 누를때마다 `number`을 증가시키는 컴포넌트이다.
-```
+```javascript
 import React from 'react';
 
 export default () => {
